@@ -13,6 +13,7 @@ if (process.env.JAWSDB_URL) {
   password: "Bipolarbear108_",
   database: "cat_db"
 });
+}
 
 // Make connection.
 connection.connect(function(err) {
